@@ -1,0 +1,35 @@
+name = ass_peng
+description = Peng's Theme Assembling Access Self Storage
+core = 7.x
+engine = phptemplate
+screenshot = screenshot.png
+
+stylesheets[all][] = css/style.css
+
+; Core Regions -- Required
+regions[page_top] 		= Page top 
+regions[content] 		= Content
+regions[page_bottom] 	= Page bottom
+
+;Core Regions
+regions[header] 		= Header
+regions[highlighted] 	= Highlighted
+regions[help] 			= Help
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer] 		= Footer
+
+;Customize
+regions[header_submenu] = Navigation Submenu
+regions[footer_second]  = Second Footer
+regions[footer_third]   = Third Footer
+
+;Features 
+
+features[] = name
+features[] = logo
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = main_menu
+features[] = secondary_menu
+features[] = favicon

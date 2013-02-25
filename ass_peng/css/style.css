@@ -1,0 +1,327 @@
+body{
+	margin: 0;
+}
+ul li a{
+	text-decoration: none;
+}
+#header{
+	_position: absolute;
+	_top: 0px;
+	_left: 0px;
+	width: 100%;
+	background-color: #f9f3cf;
+	height: 189px;
+	border-bottom: 2px solid #17347a;
+}
+#header .section{
+	width: 960px;
+	margin: auto;
+}
+#header .block{
+	float: left;
+}
+#header #header-user-menu ul{
+	padding-left: 0px;
+}
+#header #header-user-menu ul li{
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-right: 1px solid #17347a;
+	line-height: 1.6em;
+	font-size: 1em;
+}
+#header #header-user-menu ul li a{
+	height: 1.5em;
+	line-height: 1em;
+	padding: 0px 10px;
+	font-size: 0.9em;
+	color: #f17500;
+	text-decoration: none;
+}
+#header #block-block-4{
+	float: none;
+	position: absolute;
+	top: 50px;
+	left: 540px;
+}
+#header #block-block-4 a{
+	color: #de6c03;
+	font-size: 23px;
+	font-weight: bold;
+}
+#header #block-block-5{
+	position: relative;
+	top: 0px;
+	left: 340px;
+}
+#header #block-system-main-menu{
+	margin-top: 23px;
+}
+#header #block-system-main-menu ul{
+	padding: 0px;
+	margin: 0px;
+}
+#header #block-system-main-menu ul::after{
+	clear: both;
+}
+#header #block-system-main-menu ul li{
+	float: left;
+	list-style: none;
+	text-transform: uppercase;
+	margin: 0 3px 0 0;
+	padding: 0;
+}
+#header #block-system-main-menu ul li a {
+	padding: 0 1.2em;
+	line-height: 2.5em;
+	display: block;
+	font-size: 0.94em;
+}
+#header #block-system-main-menu ul li a.active{
+	text-decoration: none;
+	background-color: #eea032;
+	color: #000;
+	border: 2px solid #fff;
+	border-bottom: none;
+}
+.region-header-submenu{
+	_position: absolute;
+	_top: 192px;
+	_left: 0px;
+	width: 100%;
+	background-color: #eea032;
+	height: 40px;
+}
+.region-header-submenu > div{
+	width: 960px;
+	margin: auto;
+}
+
+.region-header-submenu .views-row{
+	float: left;
+}
+.region-header-submenu .views-row a{
+	padding: 10px 16px;
+	border-right: 2px solid #ffffff;
+	line-height: 40px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 14px;
+}
+#main-wrapper{
+	width: 960px;
+	_margin: 240px auto 0 auto;
+	margin: auto;
+}
+#main-wrapper #content{
+	width: 600px;
+	margin-left: 360px;
+}
+
+#main-wrapper #content #block-system-main{
+	border-left: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#main-wrapper #content #block-system-main h2{
+	font-size: 2.153em;
+}
+#main-wrapper #content #block-system-main h2 a{
+	text-transform: uppercase;
+	line-height: 1em;
+	color: #f27500;
+	text-decoration: none;
+}
+#sidebar-first{
+	width: 360px;
+	float: left;
+	margin-top: 20px;
+}
+#sidebar-first .section{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#sidebar-first #block-block-7{
+	border: 2px solid #eea031;
+	border-radius: 18px;	
+	text-align: center;
+}
+#sidebar-first #block-block-7 h2{
+	background-color: #f9d338;
+	border: 1px solid #f9d338;
+	padding: 8px;
+	margin: 0px;
+	border-radius: 18px 18px 0 0;
+}
+#sidebar-first #block-block-7 #sidebar-first-webspecial h3{
+	color: #b50012;
+	padding: 0px;	
+	margin: 12px 0 12px 0;	
+	font-size: 1.692em;
+}
+
+#sidebar-first #block-block-7 #sidebar-first-webspecial p{
+	color: #17337A;
+	padding: 0px;
+	margin: 12px 0 12px 0;	
+	font-size: 1.231em;
+}
+
+#sidebar-first #block-block-7 #sidebar-first-webspecial p.webspecial-seemore{
+	color: #de6c03;
+	padding: 0px;
+	margin: 30px 0 20px 0;	
+	font-size: 1em;
+}
+#sidebar-first #block-simplenews-4{
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+#sidebar-first #block-simplenews-4 img{
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+#sidebar-first #block-simplenews-4 h2{
+	font-size: 1em;
+	margin: 0 0 0.4em 0;
+	padding: 0;
+	color: #17337A;
+	width: 200px;
+}
+
+#sidebar-first #block-simplenews-4 .content p{
+	width: 200px;
+	font-size: 12px;
+}
+#sidebar-first #block-simplenews-4 .content #simplenews-block-form-4 label{
+	display: none;
+}
+#sidebar-first #block-simplenews-4 .content form input#edit-mail{
+	width: 60%;
+	border-radius: 3px;
+	border: solid 2px #eea032;
+	padding: 8px 8px;
+}
+#sidebar-first #block-simplenews-4 .content form input#edit-submit{
+
+}
+#footer{
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	margin-top: 20px;
+}
+#footer .section{
+}
+#footer .section #block-block-1{
+	background-color: #e8761f;
+}
+#footer .section #block-block-1 .content{
+	width: 960px;
+	margin: auto;
+	font-size: 26px;
+	padding-top: 14px;
+	padding-bottom:14px; 
+}
+#footer .section #block-block-1 .content #footer-callus a{
+	text-transform: uppercase;
+	font-size: 26px;
+	color: white;
+}
+#footer .region-footer-second{
+	width: 100%;
+	background-color: #e8761f;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#footer .region-footer-second > .content{
+	width: 960px;
+	margin: auto;
+}
+#footer .section #block-block-6{
+	display: table;
+	float: left;
+}
+#footer #block-views-footer-store-links-block{
+	width: 470px;
+	float: left;
+	margin-left: 55px;
+}
+#footer #block-views-footer-store-links-block h2{
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+#footer #block-views-footer-store-links-block .content{
+	width: 960px;
+	margin: auto;
+	height: 100px;
+}
+#footer #block-views-footer-store-links-block .content .view-content .views-row{
+	width: 150px;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+#footer #block-views-footer-store-links-block h2{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #003a7a;
+}
+#footer #block-views-footer-store-links-block .content .view-content .views-row a{
+	text-decoration: none;
+	color: white;	
+	font-size: 14px;
+}
+#footer #block-views-footer-store-links-block .content .view-content .views-row:nth-child(3n+1){
+	clear: left;
+}
+
+
+#footer .region-footer-third{
+	width: 100%;
+	background-color: #eea032;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+#footer .region-footer-third > .content{
+	width: 960px;
+	margin: auto;
+}
+#footer #block-views-third-footer-links-block{
+	width: 307px;
+	float: left;
+	_margin-left: 55px;
+}
+#footer #block-views-third-footer-links-block .view-content .views-row{
+	float: left;
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid white;
+}
+
+#footer #block-views-third-footer-links-block .view-content .views-row a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color: white;
+	font-size: 14px;
+}
+#footer .region-footer-third #block-block-10{
+	display: table;
+	color: white;
+	font-size: 14px;
+}
+#footer .region-footer-third #block-block-9{
+	color: white;
+	font-size: 14px;
+	display: table;
+}
