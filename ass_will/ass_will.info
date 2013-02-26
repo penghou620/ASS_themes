@@ -1,0 +1,5 @@
+name = Williams ASS Theme
+description = A Theme Created to mimic the Access Self Storage site.
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = style.css
